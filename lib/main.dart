@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'screens/ana_sayfa.dart';
 
 void main() {
-  runApp(SporTakipProgram());
+  runApp(SporTakipProgramimiz());
 }
 
-class SporTakipProgram extends StatelessWidget {
-  const SporTakipProgram({super.key});
+class SporTakipProgramimiz extends StatelessWidget {
+  const SporTakipProgramimiz({super.key});
 
   @override
   Widget build(BuildContext context) {
