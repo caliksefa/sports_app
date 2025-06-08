@@ -70,7 +70,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('YKS KOÇU', style: GoogleFonts.raleway()),
+        title: Text('Spor Takip Programı', style: GoogleFonts.raleway()),
         centerTitle: true,
         backgroundColor: AppColors.acikKahve,
         shape: const RoundedRectangleBorder(
@@ -86,7 +86,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
           ),
         ),
         leading: IconButton(
-          icon: const Icon(Icons.book, color: AppColors.cikolata),
+          icon: const Icon(Icons.book, color: AppColors.bej),
           onPressed: () {},
         ),
         actions: [
