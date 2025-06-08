@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'screens/ana_sayfa.dart';
 
 void main() {
-  runApp(YKSProgram());
+  runApp(SporTakipProgram());
 }
 
-class YKSProgram extends StatelessWidget {
-  const YKSProgram({super.key});
+class SporTakipProgram extends StatelessWidget {
+  const SporTakipProgram({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "YKS KOÇU",
+      title: "SPOR TAKİP PROGRAMI",
       theme: ThemeData(
         primaryColor: const Color(0xFFD7CCC8), // Açık Kahve
         scaffoldBackgroundColor: const Color(0xFFFFFDE7), // Krem
